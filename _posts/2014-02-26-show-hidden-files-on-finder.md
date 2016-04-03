@@ -10,17 +10,8 @@ This is a simple one that you probably already know, but I always forget how exa
 
 Show hidden files:
 
-
-```
-defaults write com.apple.finder AppleShowAllFiles 1 && killall Finder
-
-```
-
+	defaults write com.apple.finder AppleShowAllFiles 1 && killall Finder
 
 Hide them:
 
-
-```
-defaults write com.apple.finder AppleShowAllFiles 0 && killall Finder
-
-```
+	defaults write com.apple.finder AppleShowAllFiles 0 && killall Finder

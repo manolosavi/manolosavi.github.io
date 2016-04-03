@@ -10,8 +10,6 @@ Here's a nice tip from @[ZackaryCorbett](http://twitter.com/ZackaryCorbett), how
 
 Just change the folder's name to what's in between the quotes below:
 
-```
- "	  	  "
-```
+	"	  	  "
 
 Here's [how they look](http://zackary.me/1drTT.png).

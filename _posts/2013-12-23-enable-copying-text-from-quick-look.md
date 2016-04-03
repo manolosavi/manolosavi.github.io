@@ -8,13 +8,11 @@ Enable copying text from Quick Look
 
 This is a very useful tip that will allow you to copy text from any Quick Look plug-in. Just enter the following commands on the Terminal:
 
-```
-defaults write com.apple.finder QLEnableTextSelection -bool TRUE
-```
+	defaults write com.apple.finder QLEnableTextSelection -bool TRUE
 
-```
-killall Finder
-```
+<!---->
+
+	killall Finder
 
 Hat tip to [Craig Hockenberry](https://twitter.com/chockenberry/) for this one. And since we're talking about Quick Look and Craig already, you should check out his awesome plug-in to see provisioning profile's information:
 

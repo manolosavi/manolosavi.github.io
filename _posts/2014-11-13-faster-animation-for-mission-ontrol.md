@@ -4,8 +4,6 @@ title: "Faster animation for Mission Control"
 date: 2014-11-13
 ---
 
-Faster animation for Mission Control
-
 If you feel like you're wasting too much time thanks to Mission Control's animations, use these commands on the Terminal to speed it up:
 
 	defaults write com.apple.dock expose-animation-duration -float 0.2

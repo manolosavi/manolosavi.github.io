@@ -4,8 +4,6 @@ title: "Two Xcode improvements"
 date: 2015-12-15
 ---
 
-Two Xcode improvements
-
 Here's two quick settings you can change on Xcode, one's pretty minor, but the second one could be a big time saver. This first one will show you the build time on the activity bar, to enable it just enter this into the Terminal.
 
 	defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES

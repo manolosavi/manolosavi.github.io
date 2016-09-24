@@ -1,0 +1,35 @@
+#description {
+	width: 480px;
+	margin: 60px 40px 270px 440px;
+}
+
+#description p {
+	margin-bottom: 8px;
+}
+
+#iphone {
+	position: absolute;
+	top: 20px;
+	margin-left: -20px;
+	width: 311px;
+	height: 680px;
+	background: url(iphone5.png) no-repeat;
+	background-size: 100%;
+}
+
+.appstore {
+	display: block;
+	width: 150px;
+	height: 52px;
+	background: url(../images/appstore.svg) no-repeat;
+	background-size: 100%;
+	position: relative;
+	top: -250px;
+	left: 440px;
+}
+
+.appstore:active {
+	position: relative;
+	top: -249px;
+	left: 440px;
+}

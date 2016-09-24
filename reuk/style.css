@@ -1,0 +1,343 @@
+* {
+	color: #e5e5e5;
+	text-shadow: none;
+	font: 20px Seravek, Helvetica Neue;
+}
+
+body {
+	background: #0f0f0f;
+}
+
+a {
+	color: #FFC400;
+}
+
+a:hover {
+	color: #e5ac00;
+}
+
+nav a {
+	color: #e5e5e5;
+	text-shadow: none;
+}
+
+nav a:active {
+	text-shadow: none;
+}
+
+h1 {
+	color: #FFC400;
+}
+
+h3 {
+	margin: 20px /*12*/0px 10px;
+	font-size: 25px;
+	width: 100%;
+	text-align: center;
+}
+
+#iphone6 {
+	padding: 72px 19px 76px 19px;
+	margin: 0 43px 30px 128px;
+	float: left;
+	background: url(images/iphone6.png) no-repeat;
+	background-size: 100%;
+}
+
+#iphone6 .screen {
+	width: 257px;
+	height: 456px;
+	background: url(images/iphone6screen.jpg) no-repeat;
+	background-size: 100%;
+}
+
+#iphone6p {
+	float: left;
+	padding: 72px 19px 76px 19px;
+	background: url(images/iphone6p.png) no-repeat;
+	margin: -47px 128px 30px 43px;
+}
+
+#iphone6p .screen {
+	width: 284px;
+	height: 504px;
+	background: url(images/iphone6pscreen.jpg) no-repeat;
+	background-size: 100%;
+}
+
+#top {
+	padding: 70px 0 1px;
+	width: 100%;
+	min-width: 960px;
+	background: linear-gradient(to bottom, rgba(15, 15, 15, 0) 80%, #0f0f0f 100%) no-repeat, url(images/IMG_4324.jpg) center bottom / 130% no-repeat;
+	margin-top: -70px;
+}
+
+#top p {
+	width: 600px;
+	margin: 0 auto 8px;
+}
+
+#top h1, #top a, #top p, nav a {
+	text-shadow: 0 1px 1px rgba(0,0,0,.5);
+}
+
+#top .wrapper {
+	height: 600px;
+}
+
+#description {
+	margin: 30px 0;
+}
+
+#description * {
+	display: inline-block;
+}
+
+#description p {
+	width: 600px;
+	margin: 0 180px 8px;
+	text-align: center;
+}
+
+.container {
+ 	width: 960px;
+	margin: 10px 0;
+}
+
+.container div {
+ 	width: 140px;
+ 	text-align: center;
+	margin: 0 47px 30px;
+	padding: 80px 0 0;
+}
+
+.three div:first-child {
+	margin: 0 47px 30px 170px;
+}
+
+.three div:last-child {
+	margin: 0 170px 30px 47px;
+}
+
+.two div:first-child {
+	margin: 0 47px 30px 290px;
+}
+
+.two div:last-child {
+	margin: 0 290px 30px 47px;
+}
+
+#ss {
+	background: url(images/s.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#iso {
+	background: url(images/iso.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#wb {
+	background: url(images/wb.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#fp {
+	background: url(images/focus.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#on {
+	background: url(images/on.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#off {
+	background: url(images/off.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#torch {
+	background: url(images/torch.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#five {
+	background: url(images/five.png) no-repeat center top;
+	background-size: 69px;
+}
+
+#ten {
+	background: url(images/ten.png) no-repeat center top;
+	background-size: 69px;
+}
+
+/*
+#description li:before {
+    display: inline-block;
+    content: "-";
+    width: 10px;
+    margin-left: -10px;
+}*/
+
+/*#description li::before {
+ 	background: red;
+ 	/*float: left;*!/
+ 	width: 10px;
+ 	height: 100px;
+ 	content: "";
+ 	display: inline-block;
+}*/
+
+.appstore {
+	display: block;
+	width: 200px;
+	height: 60px;
+	background: url(../images/appstore.svg) no-repeat;
+	background-size: 100%;
+	margin: 40px auto;
+}
+
+.appstore:active, .photo:active {
+	position: relative;
+	top: 0;
+	opacity: .9;
+}
+
+.photo {
+	float: left;
+	margin: 24px;
+	display: block;
+	width: 192px;
+	height: 192px;
+	border-radius: 2px;
+}
+
+.photo:hover {
+	cursor: -webkit-zoom-in;
+	cursor: -moz-zoom-in;
+}
+
+ul {
+	float: left;
+	width: 960px;
+	margin: 0 0 30px;
+}
+
+ul li {
+	float: left;
+	width: 192px;
+	margin: 0 24px;
+}
+
+ul li, ul li a {
+	font-size: 17px;
+	text-align: center;
+}
+
+#photo1 {
+	background-image: url(images/1-thumb.jpg);
+	background-size: 100%;
+}
+
+#photo2 {
+	background-image: url(images/2-thumb.jpg);
+	background-size: 100%;
+}
+
+#photo3 {
+	background-image: url(images/3-thumb.jpg);
+	background-size: 100%;
+}
+
+#photo4 {
+	background-image: url(images/4-thumb.jpg);
+	background-size: 100%;
+}
+
+.lightbox {
+	/* source: http://codepen.io/gschier/pen/HCoqh */
+	display: none;
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+}
+
+.lightbox img {
+	max-width: 90%;
+	max-height: 90%;
+	margin-top: 3%;
+}
+
+.lightbox:hover {
+	cursor: -webkit-zoom-out;
+	cursor: -moz-zoom-out;
+}
+
+.lightbox:target {
+	outline: none;
+	display: block;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	#iphone6 {
+		background: url(images/iphone6@2x.png) no-repeat;
+		background-size: 100%;
+	}
+	
+	#iphone6p {
+		background: url(images/iphone6p@2x.png) no-repeat;
+		background-size: 100%;
+	}
+	
+	#ss {
+		background: url(images/s@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#iso {
+		background: url(images/iso@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#wb {
+		background: url(images/wb@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#fp {
+		background: url(images/focus@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#on {
+		background: url(images/on@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#off {
+		background: url(images/off@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#torch {
+		background: url(images/torch@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#five {
+		background: url(images/five@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+	
+	#ten {
+		background: url(images/ten@2x.png) no-repeat center top;
+		background-size: 69px;
+	}
+}

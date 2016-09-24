@@ -1,0 +1,32 @@
+h2 {
+	position: relative;
+	top: 0;
+}
+
+h3 {
+	font-size: 16px;
+	margin: 0;
+}
+
+h4 {
+	font-size: 18px;
+	margin: 15px 10px 0;
+}
+
+#version h4:nth-of-type(1) {
+	margin: 5px 10px 0;
+}
+
+ul {
+	list-style: inside;
+	margin: 0 15px;
+}
+
+li, li p, li a {
+	font-size: 16px;
+}
+
+#version {
+	width: 680px;
+	margin: 10px auto 30px;
+}

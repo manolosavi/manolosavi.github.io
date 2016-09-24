@@ -7,5 +7,5 @@
 
 # Site settings
 title: manolosavi
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "http://manolosavi.github.io" # the base hostname & protocol for your site

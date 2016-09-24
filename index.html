@@ -1,16 +1,59 @@
----
-layout: default
----
-<h1>Posts</h1>
-
-<ul class="post-list">
-	{% for post in site.posts %}
-		<li>
-			<span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-			<h2>
-				<a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-			</h2>
-		</li>
-	{% endfor %}
-</ul>
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/optimize.css">
+	
+	<link rel="icon" type="image/png" href="favicon.png">
+	
+	<title>manolosavi</title>
+	<!--<script src="/mint/?js" type="text/javascript"></script>-->
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="javascript:;">manolosavi</a>
+			<a href="photography/">Photography</a>
+		</nav>
+	</header>
+	
+	<h2>I make iOS apps, User Interfaces, Icons, and Websites. Sometimes I write random stuff on my <a href="https://manolosavi.github.io">blog</a>, and I really enjoy <a href="photography">taking photos</a>!</h2>
+	<h2>If you're interested in working with me, please feel free to <a href="mailto:mnlsv@me.com">send me an email</a>.</h2>
+	
+	<div class="product a">
+		<h3><a href="reuk">Reuk</a> - designed and made the app.</h3>
+		<div class="images">
+			<img id="reuk" src="images/reuk.png" srcset="images/reuk@2x.png 2x" />
+		</div>
+	</div>
+	
+	<div class="product b">
+		<h3><a href="aspectratio">aspect:ratio</a> - designed and made the app.</h3>
+		<div class="images">
+			<img id="aspectratio" src="images/aspectratio.png" srcset="images/aspectratio@2x.png 2x" />
+		</div>
+	</div>
+	
+	<div class="product a">
+		<h3><a href="notenow">NoteNow</a> - designed and made the app.</h3>
+		<div class="images">
+			<img id="notenow" src="images/notenow.png" srcset="images/notenow@2x.png 2x" />
+		</div>
+	</div>
+			
+	<div class="product b">
+		<h3>Icon design for <a href="aspectratio">aspect:ratio</a>, <a href="notenow">NoteNow</a>, &amp; <a href="reuk">Reuk</a></h3>
+		<div class="images">
+			<img id="icons" src="images/icons.png" srcset="images/icons@2x.png 2x" />
+		</div>
+	</div>
+	
+	<footer>
+		<p>&copy; 2009-2016 manolosavi</p>
+	</footer>
+</body>
+</html>

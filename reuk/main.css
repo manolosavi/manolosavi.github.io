@@ -1,0 +1,123 @@
+@font-face {
+	font-family: Seravek;
+	src: url(../css/Seravek.ttc);
+}
+
+* {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	text-decoration: none;
+	color: #35383b;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, .3);
+	-webkit-transition: all 30ms ease-in-out;
+	-webkit-text-size-adjust: none;
+	font: 18px Seravek, Helvetica Neue;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; 
+}
+
+ul {
+	list-style: none;
+}
+
+p {
+	padding-bottom: 4px;
+	font-weight: 400;
+}
+
+a {
+	color: #57667e;
+}
+
+a:hover {
+	color: #323b49;
+	text-decoration: underline;
+}
+
+a:active {
+	position: relative;
+	top: 1px;
+}
+
+body {
+	-webkit-text-size-adjust:none;
+	-webkit-font-smoothing: antialiased;
+	background: #f9fafc;
+}
+
+.wrapper, nav {
+	position: relative;
+	width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	width: 100%;
+}
+
+nav {
+	height: 50px;
+}
+
+nav a {
+	position: relative;
+	top: 6px;
+	left: 10px;
+	color: #435167;
+	text-shadow: 0 1px 1px rgba(255, 255, 255, .6);
+	font-size: 33px;
+	font-weight: 600;
+}
+
+nav a:hover {
+	text-decoration: none;
+}
+
+nav a:active {
+	top: 7px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+#main {
+	margin-top: 20px;
+}
+
+h1 {
+	margin: 0 10px 5px;
+	font-size: 25px;
+	color: #435268;
+}
+
+h1 a {
+	font-size: 25px;
+}
+
+h3 {
+	margin: 0 10px;
+	font-weight: 200;
+}
+
+h3 a {
+	text-decoration: underline;
+	font-weight: 200;
+}
+
+h2, h2 a {
+	font-size: 20px;
+}
+
+h2 {
+	position: absolute;
+	top: 630px;
+}
+
+footer {
+	width: 930px;
+	margin: 20px auto 0;
+	padding: 30px 0 5px;
+}
+
+footer p {
+	font-size: 12px;
+}

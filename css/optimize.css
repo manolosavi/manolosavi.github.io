@@ -1,0 +1,53 @@
+@media screen and (-webkit-min-device-pixel-ratio: 2) {
+	
+}
+
+
+@media screen and (max-width: 1024px) {
+	
+}
+
+@media screen and (max-width: 865px) {
+	
+}
+
+@media screen and (max-width: 735px) {
+	
+}
+
+@media screen and (max-width: 480px) {
+	
+}
+
+@media screen and (max-width: 320px) {
+	
+}
+
+/*  PHOTO  */
+
+@media screen and (max-width: 480px) {
+	.what, .info {
+		font-size: 12px;
+	}
+	
+	.info {
+		margin-right: 9px;
+	}
+	
+	#switch p, .show, .hide {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 622px) {
+	.portraitratio::after {
+		padding-top: 146.5%; /* height */
+		display: block;
+		content: '';
+	}
+	
+	.portraitratio .content {
+		margin: 10px;
+		max-width: 100%;
+	}
+}

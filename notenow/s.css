@@ -1,0 +1,61 @@
+@-webkit-keyframes f {
+	0% { opacity:0; }
+	10% { opacity:1; }
+	25% { opacity:1; }
+	35% { opacity:0; }
+	100% { opacity:0; }
+ }
+
+@-moz-keyframes f {
+	0% { opacity:0; }
+	10% { opacity:1; }
+	25% { opacity:1; }
+	35% { opacity:0; }
+	100% { opacity:0; }
+}
+
+
+ul, [src] {
+	position: absolute;
+}
+
+#iphone3d {
+	position: absolute;
+	top: 40px;
+	overflow: hidden;
+	height: 746px;
+	width: 321px;
+}
+
+#iphone3d ul {
+	position: absolute;
+	overflow: hidden;
+	list-style: none;
+	width: 256px !important;
+	height: 490px !important;
+	height: 100px;
+	background: url(iphone.png) no-repeat;
+	padding: 128px 18px 128px 47px;
+	box-sizing: content-box;
+}
+
+#iphone3d ul img {
+	width: 256px !important;
+	height: 490px !important;
+}
+
+ul [src] {
+	opacity: 0;
+	-webkit-animation:f 15s linear infinite;
+	-moz-animation:f 15s linear infinite;
+}
+
+ul [src="2.png"] {
+	-webkit-animation-delay: 5s;
+	-moz-animation-delay: 5s;
+}
+
+ul [src="3.png"] {
+	-webkit-animation-delay: 10s;
+	-moz-animation-delay: 10s;
+}

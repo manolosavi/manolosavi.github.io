@@ -44,7 +44,7 @@ body {
 	background: #1b1b1c;
 }
 
-nav, h2, h3, footer p {
+nav, h2, h3, .wrapper, footer p {
 	max-width: 960px;
 	margin: 0 auto;
 }

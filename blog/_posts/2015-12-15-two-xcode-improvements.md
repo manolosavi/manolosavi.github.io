@@ -6,9 +6,9 @@ date: 2015-12-15
 
 Here's two quick settings you can change on Xcode, one's pretty minor, but the second one could be a big time saver. This first one will show you the build time on the activity bar, to enable it just enter this into the Terminal.
 
-	defaults write com.apple.dt.Xcode ShowBuildOperationDuration YES
+	defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool true
 
-To disable it, just change `YES` to `NO`.
+To disable it, just change `true` to `false`.
 
 The second one is to enable Xcode to use all cores available to your machine.
 

@@ -24,8 +24,6 @@ p {
 }
 
 a {
-	/*color: #76de5f;*/
-	/*color: #5edfde;*/
 	color: #edb22a;
 	text-decoration: underline;
 }
@@ -36,7 +34,6 @@ a:active {
 }
 
 body {
-	/*width: 100%;*/
 	min-height: 100vh;
 	display: flex;
 	flex-direction: column;
@@ -61,7 +58,6 @@ nav {
 }
 
 nav a {
-	/*color: #fff;*/
 	font-size: 20px;
 	text-decoration: none;
 }
@@ -93,7 +89,6 @@ h3 {
 
 .product {
 	position: relative;
-	/*overflow: hidden;*/
 	height: 100vh;
 	padding: 20px 0;
 	margin: 20px 0 -20px;
@@ -101,7 +96,6 @@ h3 {
 
 .a {
 	background: #1b1b1c;
-	/*background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 0%, rgba(0, 0, 0, 0.02) 100%);*/
 }
 
 .b {
@@ -124,12 +118,6 @@ h3 {
 	height: auto;
 }
 
-/*#r1, #r2, #ar1, #ar2, #ar3, #nn1, #nn2, #nn3 {
-	width: 50%;
-	height: auto;
-	max-width: 280px;
-}*/
-
 #reuk {
 	max-width: 700px;
 }
@@ -141,68 +129,6 @@ h3 {
 #notenow {
 	max-width: 887px;
 }
-
-/*#r1 {
-	/*height: 653px;*!/
-	width: 320px;
-	left: 100px;
-	background-image: url(../images/r1.png); 
-	background-image: -webkit-image-set(url(../images/r1.png) 1x, url(../images/r1@2x.png) 2x);
-}
-
-#r2 {
-	/*height: 653px;*!/
-	width: 320px;
-	right: 100px;
-	background-image: url(../images/r2.png); 
-	background-image: -webkit-image-set(url(../images/r2.png) 1x, url(../images/r2@2x.png) 2x);
-}
-
-#ar1 {
-	left: 100px;
-	background-image: url(../images/ar1.png); 
-	background-image: -webkit-image-set(url(../images/ar1.png) 1x, url(../images/ar1@2x.png) 2x);
-}
-
-#ar2 {
-	left: 340px;
-	background-image: url(../images/ar2.png); 
-	background-image: -webkit-image-set(url(../images/ar2.png) 1x, url(../images/ar2@2x.png) 2x);
-}
-
-#ar3 {
-	right: 100px;
-	background-image: url(../images/ar3.png); 
-	background-image: -webkit-image-set(url(../images/ar3.png) 1x, url(../images/ar3@2x.png) 2x);
-}
-
-#nn1 {
-	top: 70px;
-	left: 100px;
-	background-image: url(../images/nn1.png); 
-	background-image: -webkit-image-set(url(../images/nn1.png) 1x, url(../images/nn1@2x.png) 2x);
-}
-
-#nn2 {
-	top: 70px;
-	left: 340px;
-	background-image: url(../images/nn2.png); 
-	background-image: -webkit-image-set(url(../images/nn2.png) 1x, url(../images/nn2@2x.png) 2x);
-}
-
-#nn3 {
-	top: 70px;
-	right: 100px;
-	background-image: url(../images/nn3.png); 
-	background-image: -webkit-image-set(url(../images/nn3.png) 1x, url(../images/nn3@2x.png) 2x);
-}
-
-#ar1, #ar3, #nn1, #nn3 {
-	/*position: absolute;*!/
-	/*top: 85px;*!/
-	/*height: 570px;*!/
-	width: 270px;
-}*/
 
 #icons {
 	padding: 5px;
